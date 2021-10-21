@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Book Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="image/logo.png" alt="" width="40" height="34" class="d-inline-block align-text-top">
+        Top of the E-Book Store...
+        
+        <!-- <div class="navbar navbar-fixed">  -->
+        <div class="header-search-wrapper hide-on-med-and-down"><i class="material-icons">search</i>
+            <input class="header-search-input z-depth-2" type="text" name="Search" placeholder="Search content" data-search="template-list">
+            <ul class="search-list collection display-none"></ul>
+      </a>
+    </div>
+  </nav>
+
+
+
+  <!-- <ul class="navbar-list right">
+    <li class="dropdown-language"><a class="waves-effect waves-block waves-light translation-button" href="#" data-target="translation-dropdown"><span class="flag-icon flag-icon-gb"></span></a></li>
+    <li class="hide-on-med-and-down"><a class="waves-effect waves-block waves-light toggle-fullscreen" href="javascript:void(0);"><i class="material-icons">settings_overscan</i></a></li>
+    <li class="hide-on-large-only search-input-wrapper"><a class="waves-effect waves-block waves-light search-button" href="javascript:void(0);"><i class="material-icons">search</i></a></li>
+    <li><a class="waves-effect waves-block waves-light notification-button" href="javascript:void(0);" data-target="notifications-dropdown"><i class="material-icons">notifications_none<small class="notification-badge">5</small></i></a></li>
+    <li><a class="waves-effect waves-block waves-light profile-button" href="javascript:void(0);" data-target="profile-dropdown"><span class="avatar-status avatar-online"><img src="image/book1.png" alt="avatar"><i></i></span></a></li>
+    <li><a class="waves-effect waves-block waves-light sidenav-trigger" href="#" data-target="slide-out-right"><i class="material-icons">format_indent_increase</i></a></li>
+  </ul>-->
+  <!-- <ul class="dropdown-content" id="translation-dropdown">
+    <li class="dropdown-item"><a class="grey-text text-darken-1" href="#!" data-language="en"><i class="flag-icon flag-icon-gb"></i> English</a></li>
+    <li class="dropdown-item"><a class="grey-text text-darken-1" href="#!" data-language="fr"><i class="flag-icon flag-icon-fr"></i> French</a></li>
+    <li class="dropdown-item"><a class="grey-text text-darken-1" href="#!" data-language="pt"><i class="flag-icon flag-icon-pt"></i> Portuguese</a></li>
+    <li class="dropdown-item"><a class="grey-text text-darken-1" href="#!" data-language="de"><i class="flag-icon flag-icon-de"></i> German</a></li>
+  </ul> -->
+
+
+    <div id="list-example" class="list-group">
+        <a class="list-group-item list-group-item-action" href="#home">Home</a>
+        <a class="list-group-item list-group-item-action" href="#about">About us</a>
+        <a class="list-group-item list-group-item-action" href="#settings">Settings</a>
+        <a class="list-group-item list-group-item-action" href="#contact">Contact</a>
+      </div>
+      <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" class="scrollspy-example" tabindex="0"></div>
+        <div id="home" class="text-center"> <h4>Home</h4>
+          <img src="image/book2.png" alt="">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui earum atque ipsa, quisquam ratione quasi magni, temporibus repellat eligendi voluptatibus reprehenderit, nihil expedita et blanditiis accusantium libero! Quis, aspernatur . Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam in dolorem corporis nostrum! Nisi quaerat rem, ad in, harum dolor debitis nesciunt magni aut voluptatibus neque alias tenetur corrupti optio! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus, eum nesciunt. Laboriosam voluptate temporibus dolorem consectetur in tempore eius laborum repellat quod, porro obcaecati doloremque voluptas amet officiis. Laborum, delectus?</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui earum atque ipsa, quisquam ratione quasi magni, temporibus repellat eligendi voluptatibus reprehenderit, nihil expedita et blanditiis accusantium libero! Quis, aspernatur . Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam in dolorem corporis nostrum! Nisi quaerat rem, ad in, harum dolor debitis nesciunt magni aut voluptatibus neque alias tenetur corrupti optio! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus, eum nesciunt. Laboriosam voluptate temporibus dolorem consectetur in tempore eius laborum repellat quod, porro obcaecati doloremque voluptas amet officiis. Laborum, delectus?</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui earum atque ipsa, quisquam ratione quasi magni, temporibus repellat eligendi voluptatibus reprehenderit, nihil expedita et blanditiis accusantium libero! Quis, aspernatur . Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam in dolorem corporis nostrum! Nisi quaerat rem, ad in, harum dolor debitis nesciunt magni aut voluptatibus neque alias tenetur corrupti optio! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus, eum nesciunt. Laboriosam voluptate temporibus dolorem consectetur in tempore eius laborum repellat quod, porro obcaecati doloremque voluptas amet officiis. Laborum, delectus?</p>
+        </div>
+        
+        <section id="about" class="mt-5">
+          <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" class="scrollspy-example" tabindex="0"></div>
+          <h2>About Us</h2>
+         <div class="row row-cols-1 row-cols-md-3 g-4">
+           <div class="col">
+             <div class="card about-card h-100 shadow">
+               <img src="image/book3.png" class="card-img-top" alt="...">
+               <div class="card-body">
+                 <h5 class="card-title">Our Mission</h5>
+                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore ex hic qui a distinctio consequuntur unde quia adipisci laboriosam numquam rem officiis, voluptatem non minima exercitationem, possimus harum consequatur quis.</p>
+               </div>
+             </div>
+           </div>
+          </div>
+        </section>
+        <br>
+
+        <section id= "settings" >
+        <div id="settings" >
+          <h4>Settings</h4>
+        
+          <ul class="list-group">
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+            <a href="#" class="list-group-item list-group-item-action active" aria-current="true">Your Profile</a>
+              <!-- Your Profile -->
+              <span class="badge bg-primary rounded-pill">5</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              <a href="#" class="list-group-item list-group-item-action active" aria-current="true">Requested Book</a>
+              <!-- Restocked books -->
+              <span class="badge bg-primary rounded-pill">8</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+            <a href="#" class="list-group-item list-group-item-action active" aria-current="true">Upsate account</a>
+              <!-- Upsate profile -->
+              <span class="badge bg-primary rounded-pill">1</span>
+            </li>
+          </ul>
+        </div>
+        </section>
+
+
+        <div id="contact" class="text-center mt-5"> <h4>Contact</h4>
+
+          <footer class="text-center mt-5">
+            <small> Mail to: <br>
+                Bookshop.llc@gmail.com <br>
+                Ingram Customer Returns Center <br>
+                1212 Ingram <br>
+                Gulshan avenue, 1212 </small>
+          </footer>
+
+        </div>
+        
+      </div>
+</body>
+</html>
